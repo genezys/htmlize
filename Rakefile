@@ -4,7 +4,7 @@ require 'rake/clean'
 gemspec = eval(File.read(Dir["*.gemspec"].first))
 targetgem = "#{gemspec.name}-#{gemspec.version}.gem"
 
-CLOBBER.include(targetgem)
+CLOBBER.include("#{gemspec.name}-*.gem")
 
 task :default => :build
 

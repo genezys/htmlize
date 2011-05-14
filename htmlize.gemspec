@@ -1,9 +1,9 @@
 Gem::Specification.new do |gem|
   gem.name = 'htmlize'
-  gem.version = '1.0'
+  gem.version = '1.1'
   gem.summary = 'Transform an HTML-like wiki content to valid HTML5'
   gem.description  = 'No description yet'
-  gem.homepage = 'https://rubygems.org/gems/htmlize'
+  gem.homepage = 'https://bitbucket.org/genezys/htmlize'
   gem.author = 'Vincent Robert'
   gem.email = 'vincent.robert@genezys.net'
   
